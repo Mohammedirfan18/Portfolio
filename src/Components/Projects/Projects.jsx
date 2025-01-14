@@ -4,6 +4,7 @@ import currencyConverterImg from '../../assets/projects/currencyconverter.png';
 import miBlogUiImg from '../../assets/projects/miblogui.png';
 import thoughtLensImg from '../../assets/projects/thoughtlens.png';
 import todoImg from '../../assets/projects/todo.png';
+import videoEditorPortfolio from '../../assets/projects/VideoEditorPortfolio.png';
 
 const Projects = () => {
   return (
@@ -40,6 +41,13 @@ const Projects = () => {
           img={todoImg}
           demoLink="https://todo.mohammedirfan.in/"
           sourceLink="https://github.com/Mohammedirfan18/TodoRTK"
+        />
+        <ProjectCard
+          title="Video Editor Portfolio Website"
+          main="A sleek and dynamic portfolio website designed for a professional video editor, showcasing their expertise and creative work. The site features an intuitive layout, seamless navigation, and a responsive design, ensuring an optimal experience across all devices."
+          img={videoEditorPortfolio}
+          demoLink="https://rahmanvisuals.in/"
+          
         />
       </div>
     </div>
