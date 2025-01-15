@@ -14,7 +14,9 @@ const Home = () => {
         </h1>
 
         <p className="text-base lg:text-lg leading-relaxed tracking-wide text-gray-300">
-          A software engineer with expertise in full-stack development and a passion for crafting efficient and user-friendly applications. I thrive on solving complex problems and delivering impactful solutions.
+        I am a software engineer with expertise in full-stack development, dedicated to creating efficient and user-friendly applications. Passionate about solving complex problems, I strive to deliver impactful solutions. Currently, I am open to both full-time positions and freelancing opportunities. Let’s collaborate to bring innovative ideas to life.
+
+Feel free to reach out to me via the contact form below!
         </p>
 
         <div className="w-full md:w-3/4">
