@@ -44,7 +44,7 @@ const Projects = () => {
         />
         <ProjectCard
           title="Video Editor Portfolio Website"
-          main="A sleek and dynamic portfolio website designed for a professional video editor, showcasing their expertise and creative work. The site features an intuitive layout, seamless navigation, and a responsive design, ensuring an optimal experience across all devices."
+          main="A sleek and dynamic portfolio website designed for a professional video editor, showcasing their expertise and creative work. The site features an intuitive layout, seamless navigation, and a responsive design, ensuring an optimal experience across all devices. The website successfully attracted new business, with the client securing a new project shortly after its launch."
           img={videoEditorPortfolio}
           demoLink="https://rahmanvisuals.in/"
           
