@@ -1,8 +1,8 @@
 import React from "react";
 import TextChange from "../TextChange";
 import ContactForm from "../ContactForm";
-import avatarImg from "../../assets/irf.jpg";
-import resumeFile from "../../assets/Irfan_resume.pdf";
+import avatarImg from "/irf.jpg";
+import resumeFile from "/Mohammed_Irfan_Resume.pdf";
 
 const Home = () => {
   return (

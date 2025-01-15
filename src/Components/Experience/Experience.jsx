@@ -33,11 +33,20 @@ const Experience = () => {
                   Assisted the organization in automating workflows and enhancing efficiency through software solutions.
                 </li>
                 <li>
-                  Developed and deployed features to improve internal applications and processes.
+                  Created a Flask app that reduced Excel data analysis time by 70% with automated summaries and visualizations.
+                </li>
+                <li>
+                  Centralized data insights, accelerating decision-making by 50%.
+                </li>
+                <li>
+                  Implemented role-based access control, improving data access efficiency by 40%.
                 </li>
                 <li>
                   Collaborated with senior developers to analyze, design, and implement software solutions.
                 </li>
+                
+
+
               </ul>
             </div>
           </div>

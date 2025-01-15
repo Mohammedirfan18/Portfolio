@@ -1,10 +1,10 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import currencyConverterImg from '../../assets/projects/currencyconverter.png';
-import miBlogUiImg from '../../assets/projects/miblogui.png';
-import thoughtLensImg from '../../assets/projects/thoughtlens.png';
-import todoImg from '../../assets/projects/todo.png';
-import videoEditorPortfolio from '../../assets/projects/VideoEditorPortfolio.png';
+import currencyConverterImg from '/projects/currencyconverter.png';
+import miBlogUiImg from '/projects/miblogui.png';
+import thoughtLensImg from '/projects/thoughtlens.png';
+import todoImg from '/projects/todo.png';
+import videoEditorPortfolio from '/projects/VideoEditorPortfolio.png';
 
 const Projects = () => {
   return (
