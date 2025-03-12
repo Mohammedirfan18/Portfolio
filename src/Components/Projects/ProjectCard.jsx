@@ -8,11 +8,11 @@ const ProjectCard = ({ title, main, img, demoLink, sourceLink }) => {
       <p className="px-4 text-sm md:text-md leading-tight py-2 text-slate-300">{main}</p>
       
       <div className="flex justify-center gap-4 mt-4">
-        <a href={demoLink} target="_blank" rel="noopener noreferrer">
+      {demoLink && (<a href={demoLink} target="_blank" rel="noopener noreferrer">
           <button className="text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697] shadow-md shadow-[#465697]/30 hover:shadow-[#465697]/50">
             Live Site
           </button>
-        </a>
+        </a>)}
 
         {sourceLink && (
           <a href={sourceLink} target="_blank" rel="noopener noreferrer">

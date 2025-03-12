@@ -7,7 +7,7 @@ import resumeFile from "/Mohammed_Irfan_Resume.pdf";
 const Home = () => {
   return (
     <div className="text-white flex flex-col-reverse md:flex-row w-full justify-between items-center px-8 lg:px-24 py-12  gap-10">
-      <div className="md:w-2/4 flex flex-col gap-8 md:gap-10">
+      <div className="md:w-3/4 flex flex-col gap-8 md:gap-10">
 
         <h1 className="text-3xl lg:text-5xl font-extrabold leading-snug tracking-tight bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">
           <TextChange />
@@ -28,7 +28,7 @@ Feel free to reach out to me via the contact form below!
       </div>
 
 
-      <div className="flex flex-col justify-center items-center md:items-start relative md:w-2/4">
+      <div className="flex flex-col justify-center items-center md:items-start relative md:w-1/4">
 
         <img
           className="w-40 h-40 sm:w-52 sm:h-52 md:w-72 md:h-72 rounded-full border-4 border-cyan-300 shadow-lg animate-floating 

@@ -4,7 +4,8 @@ import currencyConverterImg from '/projects/currencyconverter.png';
 import miBlogUiImg from '/projects/miblogui.png';
 import thoughtLensImg from '/projects/thoughtlens.png';
 import todoImg from '/projects/todo.png';
-import videoEditorPortfolio from '/projects/VideoEditorPortfolio.png';
+import videoEditorPortfolioImg from '/projects/VideoEditorPortfolio.png';
+import SummaryGeneratorImg from '/projects/SummaryGenerator.png';
 
 const Projects = () => {
   return (
@@ -14,6 +15,12 @@ const Projects = () => {
       
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      <ProjectCard
+          title="Summary Generator"
+          main="A web application that automates daily data summarization by processing 7 different files (OPD, IPD, OT, etc.), reducing manual reporting time by 80%. Users can select a date and generate summaries 5x faster via a Flask backend with MySQL, handling 200+ records daily. Integrated Chart.js for real-time visualization, improving decision-making efficiency by 60%, and saving 10+ hours per week for administrative staff."
+          img={SummaryGeneratorImg}
+          
+        />
         <ProjectCard
           title="ThoughtLens"
           main="This is a blogging website created in ReactJS, TinyMCE, Redux Toolkit, and Appwrite. ThoughtLens offers users a seamless experience to explore and contribute various thoughts while expressing themselves effectively. Whether you're looking to read something insightful or share your own ideas, ThoughtLens is the place for you!"
@@ -35,19 +42,20 @@ const Projects = () => {
           demoLink="https://currency-converter.mohammedirfan.in/"
           sourceLink="https://github.com/Mohammedirfan18/CurrencyConverter"
         />
+        
+        <ProjectCard
+          title="Video Editor Portfolio Website"
+          main="A sleek and dynamic portfolio website designed for a professional video editor, showcasing their expertise and creative work. The site features an intuitive layout, seamless navigation, and a responsive design, ensuring an optimal experience across all devices. The website successfully attracted new business, with the client securing a new project shortly after its launch."
+          img={videoEditorPortfolioImg}
+          demoLink="https://rahmanvisuals.in/"
+          
+        />
         <ProjectCard
           title="To-Do App"
           main="A feature-rich To-Do application developed using ReactJS and Redux Toolkit. It allows users to add, edit, delete, and mark tasks as complete. The app demonstrates effective state management, a seamless user experience, and responsive design."
           img={todoImg}
           demoLink="https://todo.mohammedirfan.in/"
           sourceLink="https://github.com/Mohammedirfan18/TodoRTK"
-        />
-        <ProjectCard
-          title="Video Editor Portfolio Website"
-          main="A sleek and dynamic portfolio website designed for a professional video editor, showcasing their expertise and creative work. The site features an intuitive layout, seamless navigation, and a responsive design, ensuring an optimal experience across all devices. The website successfully attracted new business, with the client securing a new project shortly after its launch."
-          img={videoEditorPortfolio}
-          demoLink="https://rahmanvisuals.in/"
-          
         />
       </div>
     </div>

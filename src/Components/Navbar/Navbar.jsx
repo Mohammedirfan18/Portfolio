@@ -5,10 +5,10 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
   return (
-    <nav className="flex flex-wrap justify-between items-center text-white px-6 md:px-20 py-4 shadow-lg bg-black bg-opacity-40 rounded-xl sticky top-0 z-50">
+    <nav className="flex flex-wrap justify-around items-center text-white px-6 md:px-20 py-4 shadow-lg bg-black bg-opacity-40 sticky top-0 z-50">
       
       <span className="text-2xl font-extrabold tracking-wide bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">
-        Portfolio
+        Irfan's Portfolio
       </span>
 
       
@@ -81,5 +81,9 @@ const Navbar = () => {
     </nav>
   );
 };
+
+
+
+
 
 export default Navbar;
